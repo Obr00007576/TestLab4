@@ -22,7 +22,7 @@ public class steps {
 
     @Then("I verify that the google homepage is showed in the browser")
     public void i_verify_that_the_google_homepage_is_showed_in_the_browser() {
-        var status = chromeDriver.findElement(By.cssSelector("img[alt='Google']")).isDisplayed();
+        var status = chromeDriver.findElement(By.className("gLFyf")).isDisplayed();
         Assert.assertTrue(status);
     }
 
