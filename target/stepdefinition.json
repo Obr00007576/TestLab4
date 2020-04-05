@@ -1,0 +1,108 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-05T18:18:20.925Z",
+        "line": 3,
+        "name": "Search keyword in google",
+        "description": "",
+        "id": "search-keyword;search-keyword-in-google",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5678964300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I launch chrome browser",
+            "match": {
+              "location": "stepDefinitions.steps.i_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 663316200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open google homepage",
+            "match": {
+              "location": "stepDefinitions.steps.i_open_google_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 146912700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I verify that the google homepage is showed in the browser",
+            "match": {
+              "location": "stepDefinitions.steps.i_verify_that_the_google_homepage_is_showed_in_the_browser()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1570095900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I input the \"godot\" to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"godot\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.steps.i_input_the_keyword_to_search(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54967600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify the \"godot\" is in the text box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"godot\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.steps.i_verify_the_keyword_is_in_the_text_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1105361300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I close the chrome browser",
+            "match": {
+              "location": "stepDefinitions.steps.i_close_the_chrome_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Search keyword",
+    "description": "",
+    "id": "search-keyword",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Search.feature",
+    "tags": []
+  }
+]
